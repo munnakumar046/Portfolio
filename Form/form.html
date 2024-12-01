@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="validation.js">
+</head>
+
+<body>
+    <div>
+        <form action="/action_page.php" onsubmit="validate()">
+
+            <label for="name">UserName</label>
+            <input type="text" id="name" name="name" placeholder="Your username.." />
+
+            <!-- <label for="pwd">Password</label>
+            <input type="text" id="pwd" name="pwd" placeholder="Your password.." /> -->
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" placeholder="Your phone.." />
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email.." />
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="">none</option>
+                <option value="australia">Australia</option>
+                <option value="australia">India</option>
+                <option value="australia">Nepal</option>
+                <option value="australia">Pakistan</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
